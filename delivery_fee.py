@@ -1,7 +1,7 @@
 def calculate_delivery_fee(distance_km):
     if distance_km < 0:
         raise ValueError("Distance cannot be negative.")
-    return 30
+    return 40
 
 
 if __name__ == "__main__":
